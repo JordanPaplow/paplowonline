@@ -15,13 +15,13 @@ body{
 }
 
 #face{
-    max-height: 90vh;
-    padding-top:10vh;
-    width:auto;
+    max-height: 85vh;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 @keyframes filter-animation {
