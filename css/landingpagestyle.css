@@ -8,15 +8,11 @@
 body{ 
   
     animation: filter-animation 3s infinite;
-    background-image: url("/images/landingpage/mountains.jpg");
-    background-position: center;
-    background-size:auto 130vh;
-    background-repeat: no-repeat;
 }
 
 #face{
-    max-height: 85vh;
-    padding-top: 10vh;
+    max-height: 90vh;
+    padding-top: 5vh;
     padding-bottom: 5vh;
     width: auto;
     display: block;
@@ -45,59 +41,3 @@ body{
   }
 
 
-
-@-webkit-keyframes ticker {
-    0% {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      visibility: visible;
-    }
-    100% {
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0);
-    }
-  }
-  @keyframes ticker {
-    0% {
-      -webkit-transform: translate3d(0, 0, 0);
-      transform: translate3d(0, 0, 0);
-      visibility: visible;
-    }
-    100% {
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0);
-    }
-  }
-  .ticker-wrap {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    overflow: hidden;
-    height: 4rem;
-    background-color: none;
-    padding-left: 100%;
-  }
-  
-  .ticker {
-    display: inline-block;
-    height: 10vh;
-    line-height: 10vh;
-    white-space: nowrap;
-    padding-right: 100%;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    -webkit-animation-name: ticker;
-    animation-name: ticker;
-    -webkit-animation-duration: 60s;
-    animation-duration: 60s;
-  }
-  .ticker_item {
-    display: inline-block;
-    padding: 0 2rem;
-    font-size: 2rem;
-    font-family:'Share Tech Mono', monospace;
-    color: rgb(255, 255, 255);
-  }
-  
