@@ -8,6 +8,10 @@
 body{ 
   
     animation: filter-animation 3s infinite;
+    background-image: url(/images/landingpage/mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 #face{
