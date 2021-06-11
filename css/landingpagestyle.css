@@ -9,7 +9,7 @@ body{
   
     animation: filter-animation 3s infinite;
     background-color: rgb(0, 0, 0);
-    background-image: url(/images/landingpage/background.jpg);
+    background-image: url("/images/landingpage/background.jpg");
     background-size: auto 100vh;
     background-position-x: center;
     font-family: orbitron, monospace;
