@@ -6,7 +6,7 @@
 }
 
 body{ 
-    background-image: url("/images/landingpage/background.jpg");
+    background-image: url("background.jpg");
     background-size: auto 100vh;
     background-position-x: center;
     font-family: orbitron, monospace;
